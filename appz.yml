@@ -1,7 +1,7 @@
 app:
   code: TRACKER
   name: Tracker
-  notify: appzdev@cloudbourne.co
+  notify: apatnaik@ecloudcontrol.com
   
 build:
   build_file: none
@@ -12,7 +12,7 @@ build:
   version: 2.24
   
 deploy:
-  context: myco/DEV
+  context: sranjan1995-dev
   port:
   - 80
   replicas: 1
@@ -46,5 +46,5 @@ properties:
   FILE_MAX: 5
   DISALLOWED_FILES: "php,php3,phtml,html,class,java,exe,pl,py"
   
-  revision: 71
+  revision: 0
   
