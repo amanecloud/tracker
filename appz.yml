@@ -19,8 +19,8 @@ deploy:
   
 properties:
   HOST: mysql-5-7
-  DBNAME: springboot-web
-  DBUSERNAME: springboot-web
+  DBNAME: tracker
+  DBUSERNAME: tracker
   DBTYPE: mysqli
   DBPASSWORD:
     vault: MYSQL_DB_PASSWORD
